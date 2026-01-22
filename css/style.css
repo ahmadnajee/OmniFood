@@ -58,8 +58,29 @@ body {
   line-height: 1;
 }
 /*************************/
-/* General Reusable Components    */
+/*General Reusable Components*/
 /*************************/
+.container {
+  max-width: 110rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 4.4rem;
   font-weight: 700;
@@ -117,7 +138,7 @@ body {
   padding: 0 4.8rem;
 }
 .logo {
-  height: 2.2rem;
+  height: 2rem;
 }
 /***********************/
 /* Navigation          */
@@ -152,7 +173,6 @@ body {
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-
   background-color: #cf711f;
 }
 
@@ -213,3 +233,7 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/***********************/
+/* How its work section*/
+/***********************/
