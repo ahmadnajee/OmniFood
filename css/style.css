@@ -114,15 +114,21 @@
 
 /* Sticky Navigation */
 
-.sticky {
+.sticky .header {
   position: fixed;
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
+  height: 6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
   z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
 }
-
+.sticky .section-hero {
+  margin-top: 6.4rem;
+}
 /***********************/
 /* Hero Section              */
 /***********************/
